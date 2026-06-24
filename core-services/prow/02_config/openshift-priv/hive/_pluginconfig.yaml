@@ -1,5 +1,5 @@
 plugins:
-  openshift-priv/kubernetes-sigs-resource-state-metrics:
+  openshift-priv/hive:
     plugins:
     - approve
     - assign
@@ -30,6 +30,6 @@ triggers:
 - org_invite:
     prominent: {}
   repos:
-  - openshift-priv/kubernetes-sigs-resource-state-metrics
+  - openshift-priv/hive
   trusted_apps:
   - openshift-merge-bot
